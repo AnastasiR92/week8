@@ -1,0 +1,113 @@
+.header {
+    display: flex;
+    padding: 20px;
+}
+
+.footer {
+    padding: 50px;
+}
+
+.header__logo {
+  padding-left: 3vw;
+}
+
+.header__title {
+  padding-left: 1vw;
+  font-family: 'Roboto Slab', sans-serif, Times;
+}
+
+.header__button {
+  width:115px;
+  height:38px;
+  margin-top:15px;
+  margin-left: 65vw;
+  background-color: #5222D0;
+  border-radius: 20px;
+}
+
+.header__cart {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header__cart-logo {
+  width:14px;
+  height:14px;
+}
+
+.main__container {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    width: 65vw;
+    height: 70vh;
+    margin-left: 12vw;
+}
+
+.main__text {
+    display:flex;
+    flex-direction:column;
+}
+
+.main__container-title {
+    padding-top:10rem;
+    font-family: 'Roboto Slab', sans-serif, Times;
+    font-weight: bold;
+    font-size: 3vw;
+    text-transform: uppercase;
+    margin-bottom: 4vh;
+}
+
+.main__container-content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    margin-bottom: 5vh;
+}
+
+.main__container-button {
+    width: 270px;
+    height: 84px;
+    border-radius: 100px;
+    background-color: #5222D0;
+    text-align: center;
+}
+
+.main__card {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-family: 'Roboto Slab', sans-serif, Times;
+    font-weight: bold;
+    line-height: 84px;
+}
+
+.main__card-logo {
+  width: 42px;
+  height: 29px;
+}
+
+.main__container-pic {
+    width: 35vw;
+    height: 70vh;
+}
+
+.footer__menu-item {
+  display:inline-block;
+  padding-top: 9rem;
+  padding-left:1.5rem;
+  font-family: 'Roboto Slab', sans-serif, Times;
+}
+
+ul, li{
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
